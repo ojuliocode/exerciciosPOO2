@@ -5,17 +5,11 @@ public class Arma {
         return dano;
     }
 
-    public void setDano(int dano) {
-        this.dano = dano;
-    }
 
     public int getCustoDeEnergia() {
         return custoDeEnergia;
     }
 
-    public void setCustoDeEnergia(int custoDeEnergia) {
-        this.custoDeEnergia = custoDeEnergia;
-    }
 
     private int custoDeEnergia;
 
