@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("Maicon Kuster", "455345", new Conta(100, 2000));
-        Cliente cliente2 = new Cliente("Kotaka", "455345", new Conta(100, 2000));
+        Cliente cliente = new Cliente("Maicon Kuster", "455345", 100, 2000);
+        Cliente cliente2 = new Cliente("Kotaka", "455345",100, 2000);
 
         cliente.comprarComCredito(120);
         cliente.comprarComCredito(2000000);
