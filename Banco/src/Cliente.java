@@ -71,10 +71,10 @@ public class Cliente {
 
 
 
-    public Cliente(String nome, String cpf, Conta conta) {
+    public Cliente(String nome, String cpf, double saldo, double limite) {
         this.nome = nome;
         this.cpf = cpf;
-        this.conta = conta;
+        this.conta = new Conta(saldo, limite);
     }
 
     public Conta getConta() {
